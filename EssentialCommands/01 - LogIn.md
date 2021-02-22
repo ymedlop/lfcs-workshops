@@ -1,0 +1,31 @@
+# Log in:
+The ssh command provides a secure encrypted connection between two hosts over an insecure network. 
+```
+ssh sample.ssh.com
+```
+
+It is also possible to use a different username at the remote machine by entering the command as:
+```
+ssh alternative-username@sample.ssh.com
+```
+
+If this is the first time you use ssh to connect to this remote machine, you will see a message like:
+```
+The authenticity of host 'sample.ssh.com' cannot be established.
+DSA key fingerprint is 04:48:30:31:b0:f3:5a:9b:01:9d:b3:a7:38:e2:b1:0c.
+Are you sure you want to continue connecting (yes/no)?
+```
+
+Type yes to continue. This will add the server to your list of known hosts (~/.ssh/known_hosts) as seen in the following message:
+```
+Warning: Permanently added 'sample.ssh.com' (DSA) to the list of known hosts.
+```
+Each server has a host key, and the above question related to verifying and saving the host key, so that next time you connect to the server, it can verify that it actually is the same server.
+
+Once the server connection has been established, the user is authenticated. Typically, it asks for a password. Once authentication has been accepted, you will be at the shell prompt for the remote machine.
+
+
+It can be used to show who is logged and what they are doing:
+```
+w
+```
