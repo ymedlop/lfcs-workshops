@@ -1,0 +1,18 @@
+# Use input-output redirection (e.g. >, >>, |, 2>)
+There are operator to redirect input, ouput and error.
+1. Overwrite 
+* `>` redirect stdout --> `echo test > file1`
+* `<` redirect stdin --> `wc < file`
+
+2. Appends 
+* `>>` redirect stdout
+* `<<` redirect stdin
+* `2>` redirect stderr --> `find /proc -name "cpu*" 2> /dev/null`
+* `2>&1` - redirect stderr  to same place of stdout 
+
+3. Merge
+* `p >& q` Merges output from stream p with stream q
+* `p <& q` Merges input from stream p with stream q
+
+4. Pipe
+* `|` the stdout is transformed in stdin --> `cat file | wc`
