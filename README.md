@@ -13,6 +13,7 @@ These notes contain instructions/commands for Ubuntu distribution.
 
 ## Credits
 * [simonesavi/lfcs](https://github.com/simonesavi/lfcs)
+* [How to prepare and pass Linux Foundation Certified System Administrator (LFCS) exam](https://medium.com/@obohovyk/how-to-prepare-and-pass-linux-foundation-certified-system-administrator-lfcs-exam-bd4cad4f6c64)
 
 ## License
 See the [LICENSE file](LICENSE) for license text and copyright information.
