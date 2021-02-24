@@ -1,6 +1,5 @@
 # Analyze text using basic regular expressions
 
-
 ## Regular Expressions
 | Character |                Definition                |  Example   |        Result         |
 | :-------: | :--------------------------------------: | :--------: | :-------------------: |
