@@ -1,69 +1,74 @@
 # Create, delete, copy, and move files and directories
 
-You must be able to check results of activities.
+## ls
+List directory content
 
-* `ls` list directory content
+First letter of first column indicate file type:
+* `-` : file
+* `d`: directory
+* `l`: link
 
-  * `ls -l` long output. It will print more columns 
+```
+ls -l - long output. It will print more columns 
 
-    File Type+Permissions - Number of links - Owner - Group - Dimension - Creation date - Creation hour - Name
+ls -la - long output plus hidden files
 
-    First letter of first column indicate file type:
+ls -lR - long output recursive (show subdirectories content)
 
-    * `-` : file
-    * `d`: directory
-    * `l`: link
+ls -lt - long output sorted by modification time
 
-  * `ls -la` long output plus hidden files
+ls -ld /etc - show the directory properties and not its content
+```
 
-  * `ls -lR` long output recursive (show subdirectories content)
+## du
+Show disk usage
+```
+du directory - show space used by directory and each subdirectory. It is recursive
+du -s - directory` summarize space used by directory and subdirectory
+du * - show space of each file in current directory
+```
 
-  * `ls -lt` long output sorted by modification time
+## pwd 
+Print current directory
 
-  * `ls -ld /etc` show the directory properties and not its content
+## touch
+It creates an empty file
+```
+touch file
+```
 
+## cp
+Copy source file to destination
+```
+cp file1 file2 ./dest -  Copy file2 and file2 to directory dest
 
+cp * ./dest - Copy all file of current directory to directory dest
 
-* `du file` show disk usage
-  * `du directory` show space used by directory and each subdirectory. It is recursive
-  * `du -s directory` summarize space used by directory and subdirectory
-  * `du *` show space of each file in current directory
-* `pwd` print current directory
+cp -r dir1 dir2 - Copy dir1 in dir2. `-r` recursive
+```
 
+## mkdir
+Create directory dir
+```
+mkdir -p dir/dir2 - Create a directory dir with a subdirecotory dir2
+```
 
+## rmdir
+Remove dir. Note: dir must be empty
 
-- `touch file`
+## tree
+Show directories tree
 
-  It creates an empty file
+## mv
+```
+mv file file2 - rename file in file2
+mv file dir - move file in directory dir
+mv dir .. - move directory dir at the upper directory level
+```
 
-
-* `cp source destination` copy source file to destination
-
-  * `cp file1 file2 ./dest`
-
-    Copy file2 and file2 to directory dest
-
-  * `cp * ./dest`
-
-    Copy all file of current directory to directory dest
-
-  * `cp -r dir1 dir2`
-
-    Copy dir1 in dir2. `-r` recursive
-
-* `mkdir dir` create directory dir
-
-  * `mkdir -p dir/dir2`
-
-    Create a directory dir with a subdirecotory dir2
-
-* `rmdir dir` remove dir. Note: dir must be empty
-* `tree` show directories tree
-  * `yum -y install tree` to install tree
-
-* `mv file file2` rename file in file2
-  * `mv file dir` move file in directory dir
-  * `mv dir ..` move directory dir at the upper directory level
-* `rm file` delete file
-  * `rm -f file` remove read-only file
-  * `rm -r dir` remove directory dir and all subdirectories and files
+## rm
+Delete file
+```
+rm -f file - remove read-only file
+rm -r dir - remove directory dir and all subdirectories and files
+```
