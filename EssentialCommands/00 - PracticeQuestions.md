@@ -10,4 +10,7 @@ an uppercase E, with the word **Globe**.
 contains **Auctores Varii**
 
 ### Solution
-TODO:
+1. ``
+2. `sed -i '7000d' /home/student/textreferences/editme.txt`
+3. `sed -i 's/Earth/Globe/g' /home/student/textreferences/editme.txt`
+4. `echo 'Auctores Varii' >> /home/student/textreferences/editme.txt`
