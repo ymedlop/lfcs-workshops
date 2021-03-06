@@ -56,4 +56,4 @@ already been created. Ensure that you specify a relative
 path to each file, using /srv/S
 
 ### Solution
-TODO:
+1. find /srv/SAMPLE002 -executable -type f -exec rm {} \;
