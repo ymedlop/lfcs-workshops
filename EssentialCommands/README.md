@@ -1,13 +1,13 @@
 # Essential Commands 25%
-* Log into local & remote graphical and text mode consoles
-* Search for files
-* Evaluate and compare the basic file system features and options
-* Compare and manipulate file content
-* Use input-output redirection (e.g. >, >>, |, 2>)
-* Analyze text using basic regular expressions
-* Archive, backup, compress, unpack, and uncompress files
-* Create, delete, copy, and move files and directories
-* Create and manage hard and soft links
-* List, set, and change standard file permissions
-* Read, and use system documentation
-* Manage access to the root account
+* [Log into local & remote graphical and text mode consoles](01%20-%20LogIn.md)
+* [Search for files](02%20-%20SearchingFiles.md)
+* [Evaluate and compare the basic file system features and options](03%20-%20EvaluateCompareBasicFileSystem.md)
+* [Compare and manipulate file content](04%20-%20CompareManipulateFileContent.md)
+* [Use input-output redirection (e.g. >, >>, |, 2>)](05%20-%20InputOutputRedirection.md)
+* [Analyze text using basic regular expressions](06%20-%20RegEx.md)
+* [Archive, backup, compress, unpack, and uncompress files](07%20-%20ArchiveTar.md)
+* [Create, delete, copy, and move files and directories](08%20-%20FilesDirectoriesCRUD.md)
+* [Create and manage hard and soft links](09%20-%20SoftHardLinks.md)
+* [List, set, and change standard file permissions](10%20-%20FilePermissions.md)
+* [Read, and use system documentation](11%20-%20SystemDoc.md)
+* [Manage access to the root account](12%20-%20IamRoot.md)
