@@ -24,6 +24,10 @@ The important thing to remember is that diff uses certain special symbols and in
 diff file1 file2
 ```
 
+## [comm]()
+
+## [cmp]()
+
 ## Editor: vi
 The default editor that comes with the UNIX operating system is called vi (visual editor). The UNIX vi editor is a full screen editor and has two modes of operation:
 * Command mode commands which cause action to be taken on the file, and
@@ -88,6 +92,10 @@ uniq -w 2 file - Remove equal consecutive rows comparing only first two characte
 uniq -c file - Remove equal consecutive rows and show number of occurrences
 ```
 
+## [more]()
+
+## [less]()
+
 ## [sort](https://www.geeksforgeeks.org/sort-command-linuxunix-examples/)
 Order file content
 ```
@@ -130,3 +138,5 @@ cat file | tr -s ' ' - It will replace all consecutive occurrences of space with
 ```
 file namefile - print the type of namefile
 ```
+
+## [touch]()
