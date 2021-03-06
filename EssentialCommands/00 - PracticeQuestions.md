@@ -53,7 +53,11 @@ extension of .tar. Write a list of matching filenames, one
 per line, to the file
 /opt/SAMPLE002/toBeCompressed.txt, which has
 already been created. Ensure that you specify a relative
-path to each file, using /srv/S
+path to each file, using /srv/SAMPLE001 as the base
+directory for the relative path
 
 ### Solution
 1. `find /srv/SAMPLE002 -executable -type f -exec rm {} \;`
+2. `find /srv/SAMPLE002 -atime +30 -type f -exec rm {} \;`
+3. `find /srv/SAMPLE002 -emtpy -type d -exec rmdir {} \;`
+4. `find /srv/SAMPLE002 -name '*.tar' -printf '/srv/SAMPLE001/%P\n' > /opt/SAMPLE002/toBeCompressed.txt`
