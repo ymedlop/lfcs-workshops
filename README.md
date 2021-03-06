@@ -11,6 +11,9 @@ These notes contain instructions/commands for Ubuntu distribution.
 5. [Service Configuration](ServiceConfiguration) - 20%
 6. [Storage Management](StorageManagement) - 13%
 
+## Training Courses
+* [Linux Academy](https://linuxacademy.com/cp/modules/view/id/428)
+
 ## Credits
 * [simonesavi/lfcs](https://github.com/simonesavi/lfcs)
 * [How to prepare and pass Linux Foundation Certified System Administrator (LFCS) exam](https://medium.com/@obohovyk/how-to-prepare-and-pass-linux-foundation-certified-system-administrator-lfcs-exam-bd4cad4f6c64)
