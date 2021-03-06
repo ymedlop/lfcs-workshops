@@ -3,7 +3,6 @@
 * [Boot or change system into different operating modes](02.md)
 * [Install, configure and troubleshoot bootloaders](03.md)
 * [Diagnose and manage processes](04.md)
-* [Locate and analyze system log files](05.md)
 * [Schedule tasks to run at a set date and time](06.md)
 * [Verify completion of scheduled jobs](07.md)
 * [Update software to provide required functionality and security](08.md)
@@ -13,5 +12,4 @@
 * [Use scripting to automate system maintenance tasks](12.md)
 * [Manage the startup process and services (In Services Configuration)](13.md)
 * [List and identify SELinux/AppArmor file and process contexts](14.md)
-* [Manage Software](15.md)
 * [Identify the component of a Linux distribution that a file belongs to](16.md)
