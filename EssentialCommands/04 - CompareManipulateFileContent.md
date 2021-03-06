@@ -107,8 +107,8 @@ sort -k 2 file - Order file content using as reference second word
 cut is a command-line utility that allows you to cut parts of lines from specified files or piped data and print the result to standard output. It can be used to cut parts of a line by delimiter, byte position, and character.
 ```
 cut -d delimiter -f column
-cut -d '  ' -f 1 file - Print first word of each line. Delimiter will be space
-cut -d '  ' -f 1,3 file - Print first and third word of each line. Delimiter will be space
+cut -d ' ' -f 1 file - Print first word of each line. Delimiter will be space
+cut -d ' ' -f 1,3 file - Print first and third word of each line. Delimiter will be space
 ```
 
 ## [tail](https://www.geeksforgeeks.org/tail-command-linux-examples/)
