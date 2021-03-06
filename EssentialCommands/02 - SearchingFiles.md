@@ -42,3 +42,24 @@ find . -perm -g=w - Find all files with at least  permission write for group
 
 find . -atime +1 - Show all files accessed at least two days ago (more than 24 hours)
 ```
+
+## [type](https://www.geeksforgeeks.org/type-command-in-linux-with-examples/)
+The type command is used to describe how its argument would be translated if used as commands. It is also used to find out whether it is built-in or external binary file.
+```
+type locate
+```
+
+## [whereis](https://www.geeksforgeeks.org/whereis-command-in-linux-with-examples/)
+whereis command is used to find the location of source/binary file of a command and manuals sections for a specified file in Linux system. 
+```
+type whereis
+```
+
+## [which](https://www.geeksforgeeks.org/which-command-in-linux-with-examples/)
+which command in Linux is a command which is used to locate the executable file associated with the given command by searching it in the path environment variable. It has 3 return status as follows:
+* 0 : If all specified commands are found and executable.
+* 1 : If one or more specified commands is nonexistent or not executable.
+* 2 : If an invalid option is specified.
+```
+type which
+```
