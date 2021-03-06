@@ -1,0 +1,10 @@
+# Review
+* [Evaluate and compare the basic file system features and options](03%20-%20EvaluateCompareBasicFileSystem.md)
+* [Compare and manipulate file content](04%20-%20CompareManipulateFileContent.md)
+* [Use input-output redirection (e.g. >, >>, |, 2>)](05%20-%20InputOutputRedirection.md)
+* [Analyze text using basic regular expressions](06%20-%20RegEx.md)
+* [Archive, backup, compress, unpack, and uncompress files](07%20-%20ArchiveTar.md)
+* [Create, delete, copy, and move files and directories](08%20-%20FilesDirectoriesCRUD.md)
+* [Create and manage hard and soft links](09%20-%20SoftHardLinks.md)
+* [List, set, and change standard file permissions](10%20-%20FilePermissions.md)
+* [Manage access to the root account](12%20-%20IamRoot.md)

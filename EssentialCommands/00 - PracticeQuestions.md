@@ -16,45 +16,29 @@ contains **Auctores Varii**
 4. `echo 'Auctores Varii' >> /home/student/textreferences/editme.txt`
 
 ## Question 2
-Working with archives and compressed files is an integral part of
-the System Administrator’s job.
-Perform the following tasks to demonstrate your ability to work
-with archives and compressed files:
-1. Extract all files from archive file /opt/SAMPLE001.zip
-into target directory /opt/SAMPLE001
-2. Create a tar archive file /opt/SAMPLE0001.tar
-containing all files in the directory /opt/SAMPLE001
-3. Compress the tar archive file /opt/SAMPLE0001.tar
-using the bzip2 compression algorithm
-4. Compress the tar archive file /opt/SAMPLE0001.tar
-using the xz compression algorithm
-Make sure that the uncompressed archive file
-/opt/SAMPLE0001.tar is not removed after creating the
-compressed versions of the archive file!
+Working with archives and compressed files is an integral part of the System Administrator’s job.
+Perform the following tasks to demonstrate your ability to work with archives and compressed files:
+1. Extract all files from archive file /opt/SAMPLE001.zip into target directory /opt/SAMPLE001
+2. Create a tar archive file /opt/SAMPLE0001.tar containing all files in the directory /opt/SAMPLE001
+3. Compress the tar archive file /opt/SAMPLE0001.tar using the bzip2 compression algorithm
+4. Compress the tar archive file /opt/SAMPLE0001.tar using the xz compression algorithm.
+
+Make sure that the uncompressed archive file /opt/SAMPLE0001.tar is not removed after creating the compressed versions of the archive file!
 
 ### Solution
-TODO:
+1. `unzip -d /opt/SAMPLE001 /opt/SAMPLE001.zip`
+2. `tar cvf /opt/SAMPLE0001.tar /opt/SAMPLE001`
+3. `tar lcvf /opt/SAMPLE0001.tar.bz2 /opt/SAMPLE0001.tar`
+4. `tar --use-compress-program xz -cvf /opt/SAMPLE0001.tar.xz /opt/SAMPLE0001.tar`
 
 ## Question 3
 A data directory is not used anymore and is about to be archived.
-You have been asked to identify and remove some files,before
-archiving takes place.
-Perform the following tasks to demonstrate your ability to search
-for files given various criteria:
-1. Find all executable files in the directory
-/srv/SAMPLE002 and remove them
-2. Find all files in the directory /srv/SAMPLE002, which
-have not been accessed during the last month and
-remove them
-3. Find all empty directories in the directory
-/srv/SAMPLE002 and remove them
-4. Find all files in the directory /srv/SAMPLE002 with a file
-extension of .tar. Write a list of matching filenames, one
-per line, to the file
-/opt/SAMPLE002/toBeCompressed.txt, which has
-already been created. Ensure that you specify a relative
-path to each file, using /srv/SAMPLE001 as the base
-directory for the relative path
+You have been asked to identify and remove some files,before archiving takes place.
+Perform the following tasks to demonstrate your ability to search for files given various criteria:
+1. Find all executable files in the directory /srv/SAMPLE002 and remove them
+2. Find all files in the directory /srv/SAMPLE002, which have not been accessed during the last month and remove them
+3. Find all empty directories in the directory /srv/SAMPLE002 and remove them
+4. Find all files in the directory /srv/SAMPLE002 with a file extension of .tar. Write a list of matching filenames, one per line, to the file /opt/SAMPLE002/toBeCompressed.txt, which has already been created. Ensure that you specify a relative path to each file, using /srv/SAMPLE001 as the base directory for the relative path
 
 ### Solution
 1. `find /srv/SAMPLE002 -executable -type f -exec rm {} \;`
