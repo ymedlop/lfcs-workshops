@@ -10,5 +10,4 @@
 * [Configure HTTP server log files](09.md))
 * [Configure a database server](10.md)
 * [Restrict access to a web page](11.md)
-* [Manage and configure containers](12.md)
 * [Manage and configure Virtual Machines](13.md)
