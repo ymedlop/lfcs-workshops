@@ -1,5 +1,5 @@
 # Linux Foundation Certified System Administrator (LFCS)
-Preparing myself for the LFCS certification exam.
+Preparing myself for the LFCS certification exam using Ubuntu 18.04.5 LTS
 
 These notes contain instructions/commands for Ubuntu distribution.
 
