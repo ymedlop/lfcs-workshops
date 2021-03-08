@@ -29,7 +29,7 @@ Make sure that the uncompressed archive file /opt/SAMPLE0001.tar is not removed 
 1. `unzip -d /opt/SAMPLE001 /opt/SAMPLE001.zip`
 2. `tar cvf /opt/SAMPLE0001.tar /opt/SAMPLE001`
 3. `tar lcvf /opt/SAMPLE0001.tar.bz2 /opt/SAMPLE0001.tar`
-4. `tar --use-compress-program xz -cvf /opt/SAMPLE0001.tar.xz /opt/SAMPLE0001.tar`
+4. `tar cvfJ /opt/SAMPLE0001.tar.xz /opt/SAMPLE0001.tar`
 
 ## Question 3
 A data directory is not used anymore and is about to be archived.
