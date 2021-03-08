@@ -13,7 +13,8 @@ These notes contain instructions/commands for Ubuntu distribution.
 
 ## Training Courses
 * [Linux Academy](https://linuxacademy.com/cp/modules/view/id/428)
-* [Linux Foundation](https://training.linuxfoundation.org/training/essentials-of-linux-system-administration/)
+* [LFS201](https://training.linuxfoundation.org/training/essentials-of-linux-system-administration/)
+* [LFS211](https://training.linuxfoundation.org/training/linux-networking-and-administration/)
 
 ## Credits
 * [simonesavi/lfcs](https://github.com/simonesavi/lfcs)
