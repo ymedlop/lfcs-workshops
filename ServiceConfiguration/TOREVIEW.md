@@ -1,5 +1,4 @@
 # Service Configuration 20%
-* [Configure a caching DNS server](01.md)
 * [Maintain a DNS zone](02.md))
 * [Configure email aliases](03.md))
 * [Configure SSH servers and clients](04.md))
