@@ -1,9 +1,7 @@
 # Service Configuration 20%
 * [Maintain a DNS zone](02.md))
-* [Configure email aliases](03.md))
 * [Configure SSH servers and clients](04.md))
 * [Restrict access to the HTTP proxy server](05.md))
-* [Configure an IMAP and IMAPS service](06.md))
 * [Query and modify the behavior of system services at various operating modes](07.md))
 * [Configure an HTTP server](08.md))
 * [Configure HTTP server log files](09.md))
