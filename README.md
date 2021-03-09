@@ -6,10 +6,10 @@ These notes contain instructions/commands for Ubuntu distribution.
 ## Domains & Competencies
 1. [Essential Commands](EssentialCommands) - 25%
 2. [Operation of Running Systems](OperationRunningSystems) - 20%
-3. [User and Group Management](UserandGroupManagement) - 10%
-4. [Networking](Networking) - 12%
-5. [Service Configuration](ServiceConfiguration) - 20%
-6. [Storage Management](StorageManagement) - 13%
+3. [Service Configuration](ServiceConfiguration) - 20%
+4. [Storage Management](StorageManagement) - 13%
+5. [Networking](Networking) - 12%
+6. [User and Group Management](UserandGroupManagement) - 10%
 
 ## Training Courses
 * [Linux Academy](https://linuxacademy.com/cp/modules/view/id/428)
