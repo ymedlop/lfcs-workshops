@@ -17,13 +17,17 @@ Create a candidate user account with the password cert456.
 Modify the sudo configuration to let the candidate account access root privileges with no password prompt.
 
 ### Solution
-TODO:
+1. `sudo adduser candidate`
+2. ````
+    sudo -i
+    echo "candidate ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+````
 
 ## Question 3
 Configure the system so that an empty NEWS file is automatically created in the home directory of any new user.
 
 ### Solution
-TODO:
+`sudo touch /etc/skel/NEWS`
 
 ## Question 4
 Create a group called students.
