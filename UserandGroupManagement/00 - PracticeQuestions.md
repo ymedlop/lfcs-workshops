@@ -57,7 +57,11 @@ Create a user account with username sysadmin with thefollowing attributes:
 * The default shell for this user is zsh.
 
 ### Solution
-TODO:
+````
+sudo -i
+adduser --home /sysadmin/ -s zsh sysadmin
+echo "sysadmin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+````
 
 ## Question 7
 Ensure that all users can invoke the last command and access a list of users who previously logged in.
@@ -69,10 +73,15 @@ TODO:
 Correct the projectadmin user account so that logins are possible using the password _onetime43_. Set the home directory to /home/projectadmin.
 
 ### Solution
-TODO:
+````
+sudo passwd projectadmin
+sudo usermod --home /home/projectadmin projectadmin
+````
 
 ## Question 9
 Alter the devel user account so that it can log into the system with a working bash shell environment.
 
 ### Solution
-TODO:
+````
+sudo usermod -s bash devel
+````
