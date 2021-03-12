@@ -10,7 +10,7 @@ Complete the following tasks to demonstrate your ability to create and manage gr
 ### Solution
 1. `sudo groupadd computestream`
 2. `sudo mkdir -p /exam/computestream`
-3.
+3. `sudo chown root:computestream computestream`
 
 ## Question 2
 Create a candidate user account with the password cert456.
