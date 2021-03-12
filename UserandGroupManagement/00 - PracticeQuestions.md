@@ -17,10 +17,10 @@ Create a candidate user account with the password cert456.
 Modify the sudo configuration to let the candidate account access root privileges with no password prompt.
 
 ### Solution
-1. `sudo adduser candidate`
-2. ````
-    sudo -i
-    echo "candidate ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+````
+sudo -i
+adduser candidate
+echo "candidate ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 ````
 
 ## Question 3
@@ -44,7 +44,10 @@ Create a new user account with the following attributes:
 * The /home/school/harry/binaries/ directory is part of the PATH variable.
 
 ### Solution
-TODO:
+````
+sudo adduser --home /home/school/harry/binaries harry
+sudo adduser harry students
+````
 
 ## Question 6
 Create a user account with username sysadmin with thefollowing attributes:
