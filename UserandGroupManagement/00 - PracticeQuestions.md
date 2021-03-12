@@ -27,7 +27,7 @@ TODO:
 Create a group called students.
 
 ### Solution
-TODO:
+`sudo groupadd students`
 
 ## Question 5
 Create a new user account with the following attributes:
