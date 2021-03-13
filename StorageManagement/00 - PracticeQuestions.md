@@ -6,8 +6,11 @@ The following tasks may be achieved using the user student’s sudo privileges:
 2. Decompress and unarchive the /mnt/backup/backup-primary.tar.bz2 archive into /opt/. This should result in a new directory (created from the archive itself) named /opt/proddata/.
 
 ### Solution
-1. `mount /dev/xvdf2 /mnt/backup`
-2. `tar clvf /mnt/backup/backup-primary.tar.bz2 /opt/proddata`
+````
+sudo -i
+mount /dev/xvdf2 /mnt/backup`
+tar clvf /mnt/backup/backup-primary.tar.bz2 /opt/proddata
+````
 
 ## Question 2
 Configure the swap partition /dev/xvdi1 so that it does not become attached automatically at boot time.
